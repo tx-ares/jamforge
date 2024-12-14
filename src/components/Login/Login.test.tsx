@@ -1,6 +1,7 @@
+import * as React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import Login from "./Login";
-// TODO: FIX IMPORTS FOR JEST
+
 // Mock the console log for the form submission
 jest.spyOn(console, "log").mockImplementation(() => {});
 

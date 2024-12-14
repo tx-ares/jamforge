@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { FC, useState, useEffect } from "react";
 import { Box, TextField, Button, Typography, Paper } from "@mui/material";
 import styles from "./Login.module.scss"; // Import the SCSS module
 
 const backgrounds = ["url('/assets/images/Underoath-Denver-Concert-2023.jpg')"];
 
-const LoginPage: React.FC = () => {
+const LoginPage: FC = () => {
   const [backgroundImage, setBackgroundImage] = useState("");
 
   useEffect(() => {
