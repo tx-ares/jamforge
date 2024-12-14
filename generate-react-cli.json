@@ -3,7 +3,7 @@
   "usesStyledComponents": false,
   "usesCssModule": true,
   "cssPreprocessor": "scss",
-  "testLibrary": "jest",
+  "testLibrary": "testing-library",
   "component": {
     "default": {
       "path": "src/components",
